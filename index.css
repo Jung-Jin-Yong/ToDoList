@@ -16,10 +16,26 @@ body {
 .form,
 .greetings{
   display: none;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.form input{
+  width: 600px;
+  display: inline;
+}
+
+.js-toDoForm input{
+  width: 600px;
 }
 
 .showing{
   display:block;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 @keyframes fadeIn {
@@ -38,4 +54,31 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn .5s linear;
+}
+
+.js-clock{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10;
+  font-size: 40px;
+}
+
+.js-toDoForm{
+  display:block;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.js-toDoList{
+  display:block;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.js-weather{
+  display:block;
+  text-align: right;
 }
